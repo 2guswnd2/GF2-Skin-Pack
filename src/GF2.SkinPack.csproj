@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <AssemblyName>GF2.SkinPack</AssemblyName>
+    <RootNamespace>GF2.SkinPack</RootNamespace>
+    <Version>1.0.0</Version>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+    <Reference Include="SPTarkov.Server.Core"><HintPath>../refs/SPTarkov.Server.Core.dll</HintPath></Reference>
+    <Reference Include="SPTarkov.DI"><HintPath>../refs/SPTarkov.DI.dll</HintPath></Reference>
+    <Reference Include="SPTarkov.Common"><HintPath>../refs/SPTarkov.Common.dll</HintPath></Reference>
+    <Reference Include="SemanticVersioning"><HintPath>../refs/SemanticVersioning.dll</HintPath></Reference>
+    <Reference Include="WTTServerCommonLib"><HintPath>../refs/WTTServerCommonLib.dll</HintPath></Reference>
+  </ItemGroup>
+</Project>
